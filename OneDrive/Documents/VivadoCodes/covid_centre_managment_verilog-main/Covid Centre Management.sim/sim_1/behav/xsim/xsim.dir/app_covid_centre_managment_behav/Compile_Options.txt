@@ -1,0 +1,1 @@
+-wto "ef08dada96784f2f9c50169462c2e773" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "app_covid_centre_managment_behav" "xil_defaultlib.app_covid_centre_managment" "xil_defaultlib.glbl" -log "elaborate.log" 
