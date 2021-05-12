@@ -26,7 +26,7 @@ wire [3:0]R2;
 reg [7:0] data;
 wire [3:0] count;
 wire ready;
-counter_1 DUT(clk,start,data,reset_b,count,ready);
+counter_1  M(clk,start,data,reset_b,count,ready);
 initial #650 $finish;
 initial begin
  clk=0;
@@ -35,20 +35,20 @@ initial begin
  
 
 initial fork
-#1 reset_b=1;
-#3 reset_b=0;
-#4 reset_b=1;
-#27 reset_b=0;
-#29 reset_b=1;
-#355 reset_b=0;
-#365 reset_b=1;
-#4 data=8'Hff;
-#145 data=8'haa;
-#25 start=1;
-#35 start=0;
-#55 start=1;
-#65 start=0;
-#395 start=1;
-#405 start=0;
- join
+#1 reset_b = 1;
+#3 reset_b = 0;
+#4 reset_b = 1;
+#27 reset_b = 0;
+#29 reset_b = 1;
+#355 reset_b = 0;
+#365 reset_b = 1;
+#4 data = 8'Hff;
+#145 data = 8'haa;
+# 25 start = 1;
+# 35 start = 0;
+#55 start = 1;
+#65 start = 0;
+#395 start = 1;
+#405 start = 0; 
+join
 endmodule

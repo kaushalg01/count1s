@@ -24,6 +24,6 @@ module counter_1(
 input clk,input start,input [7:0] data,input reset_b,output [3:0]count,output ready);
 
 wire load,shift_l,increment,zero,E;
-Controller M1(.ready(ready),.clk(clk),.start(start),.reset_b(reset_b),.load(load),.shift(shift_l),.increment(increment),.zero(zero),.E(E));
+Controller M1(.ready(ready),.clk(clk),.start(start),.reset_b(reset_b),.load(load),.shift_l(shift_l),.increment(increment),.zero(zero),.E(E));
 Datapath   M2(.data(data),.count(count),.clk(clk),.load(load),.shift_l(shift_l),.increment(increment),.zero(zero),.E(E));
 endmodule

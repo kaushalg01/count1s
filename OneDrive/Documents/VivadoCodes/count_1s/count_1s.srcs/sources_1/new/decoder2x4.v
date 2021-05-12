@@ -22,8 +22,8 @@
 
 module decoder2x4(
 output [0:3] out,input in1,input in0,input enable);
-assign out[0] = !(!in1 && !in0 && !enable),
-       out[1] = !(!in1 && in0  && !enable),
-       out[2] = !(in1 && !in0  && !enable),
-       out[3] = !(in1 && in0  && !enable);
+assign out[0] = (!in1 && !in0 && !enable),
+       out[1] = (!in1 && in0  && !enable),
+       out[2] = (in1 && !in0  && !enable),
+       out[3] = (in1 && in0  && !enable);
  endmodule

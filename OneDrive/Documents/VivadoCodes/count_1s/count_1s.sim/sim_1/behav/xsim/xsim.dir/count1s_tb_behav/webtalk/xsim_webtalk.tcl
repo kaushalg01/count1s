@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/Kaushalg/OneDrive/Documents/VivadoCodes/count_1s/count_1s.sim/sim_1/behav/xsim/xsim.dir/count1s_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Tue May 11 17:14:46 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Wed May 12 17:50:32 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3064766" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "6082834f-566d-4995-bd7a-8a0bdc844ac8" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "7676551bbd7f4781ab69425335fa6cfe" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "21" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "37" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz" -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "71" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "13" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "1.50_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "58348_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2384136170 -regid "" -xml C:/Users/Kaushalg/OneDrive/Documents/VivadoCodes/count_1s/count_1s.sim/sim_1/behav/xsim/xsim.dir/count1s_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Kaushalg/OneDrive/Documents/VivadoCodes/count_1s/count_1s.sim/sim_1/behav/xsim/xsim.dir/count1s_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Kaushalg/OneDrive/Documents/VivadoCodes/count_1s/count_1s.sim/sim_1/behav/xsim/xsim.dir/count1s_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "2.27_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "58196_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 3842142545 -regid "" -xml C:/Users/Kaushalg/OneDrive/Documents/VivadoCodes/count_1s/count_1s.sim/sim_1/behav/xsim/xsim.dir/count1s_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Kaushalg/OneDrive/Documents/VivadoCodes/count_1s/count_1s.sim/sim_1/behav/xsim/xsim.dir/count1s_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Kaushalg/OneDrive/Documents/VivadoCodes/count_1s/count_1s.sim/sim_1/behav/xsim/xsim.dir/count1s_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
